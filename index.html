@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Scrappy Scrumptious</title>
+        <script src="scrapsToRecipe.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body onload="{updateFridgeButtons(); getTopRecipes();}">
+        <div class="center">
+            <h2>Ingredients</h2>
+        </div>
+        <div class="center">
+            <input id="search" oninput="getIngredients(this.value)" type="text">
+        </div>
+        <div id="add-ingredients">
+
+        </div>
+        <div id="have-ingredients">
+            
+        </div>
+        <div class="center">
+            <h2 id="recipe-header">Recipes</h2>
+        </div>
+        <div id="recipies">
+            
+        </div>
+    </body>
+</html>
